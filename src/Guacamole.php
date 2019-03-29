@@ -7,7 +7,11 @@ class Guacamole
     /**
      * @var int
      */
-    private $howMuch;    
+    private $howMuch;
+    
+    /**
+     * Constructor
+     */
     public function __construct($howMuch)
     {
         // set it
